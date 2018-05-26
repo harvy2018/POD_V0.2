@@ -1,0 +1,153 @@
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Flash'
+compiling main.c...
+..\..\User\main.c(146): warning:  #177-D: variable "k" was declared but never referenced
+                u16 i,k;
+..\..\User\main.c(1172): warning:  #177-D: variable "addr_temp" was declared but never referenced
+        u32 addr_temp;
+..\..\User\main.c(1537): warning:  #177-D: function "ADC_Configuration" was declared but never referenced
+  static void ADC_Configuration(void)
+..\..\User\main.c: 3 warnings, 0 errors
+compiling stm32f10x_it.c...
+..\..\User\stm32f10x_it.c(316): warning:  #177-D: variable "res" was declared but never referenced
+    u8 i,res;
+..\..\User\stm32f10x_it.c(451): warning:  #550-D: variable "DMA_LEN" was set but never used
+          u16 DMA_LEN;  
+..\..\User\stm32f10x_it.c(467): warning:  #550-D: variable "DMA_LEN" was set but never used
+          u16 DMA_LEN;  
+..\..\User\stm32f10x_it.c(482): warning:  #550-D: variable "DMA_LEN" was set but never used
+          u16 DMA_LEN;  
+..\..\User\stm32f10x_it.c(498): warning:  #550-D: variable "DMA_LEN" was set but never used
+          u16 DMA_LEN;  
+..\..\User\stm32f10x_it.c: 5 warnings, 0 errors
+compiling bsp_usart.c...
+..\..\User\bsp\bsp_usart.c(86): warning:  #223-D: function "bsp_DelayMS" declared implicitly
+        bsp_DelayMS(5);
+..\..\User\bsp\bsp_usart.c(145): warning:  #223-D: function "bsp_DelayMS" declared implicitly
+        bsp_DelayMS(5);
+..\..\User\bsp\bsp_usart.c(204): warning:  #223-D: function "bsp_DelayMS" declared implicitly
+        bsp_DelayMS(5);
+..\..\User\bsp\bsp_usart.c(262): warning:  #223-D: function "bsp_DelayMS" declared implicitly
+        bsp_DelayMS(5);
+..\..\User\bsp\bsp_usart.c(323): warning:  #223-D: function "bsp_DelayMS" declared implicitly
+        bsp_DelayMS(5);
+..\..\User\bsp\bsp_usart.c(427): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\User\bsp\bsp_usart.c: 6 warnings, 0 errors
+compiling bsp_printf.c...
+compiling bsp_timer.c...
+..\..\User\bsp\bsp_timer.c(43): warning:  #177-D: variable "clk" was declared but never referenced
+        u32 clk;
+..\..\User\bsp\bsp_timer.c: 1 warning, 0 errors
+compiling 18b20.c...
+..\..\User\bsp\18b20.c(318): warning:  #68-D: integer conversion resulted in a change of sign
+        symbol=-1;//?露?为负  
+..\..\User\bsp\18b20.c(334): warning:  #223-D: function "SEGGER_RTT_printf" declared implicitly
+                SEGGER_RTT_printf(0,"当前?露龋?%d' \r\n",tem);
+..\..\User\bsp\18b20.c(291): warning:  #550-D: variable "symbol" was set but never used
+      char symbol,size;
+..\..\User\bsp\18b20.c(291): warning:  #177-D: variable "size" was declared but never referenced
+      char symbol,size;
+..\..\User\bsp\18b20.c: 4 warnings, 0 errors
+compiling bsp_SST25VF016B.c...
+compiling rtc.c...
+compiling stm32f10x_pwr.c...
+compiling gas.c...
+..\..\User\bsp\gas.c(188): warning:  #940-D: missing return statement at end of non-void function "OilCmdGenerate"
+  }
+..\..\User\bsp\gas.c(343): warning:  #177-D: variable "res" was declared but never referenced
+        u8 res,i;
+..\..\User\bsp\gas.c(343): warning:  #177-D: variable "i" was declared but never referenced
+        u8 res,i;
+..\..\User\bsp\gas.c(348): warning:  #177-D: variable "Com_Gun_Bdinfo_temp" was declared but never referenced
+        Com_Gun_Binding Com_Gun_Bdinfo_temp;
+..\..\User\bsp\gas.c(567): warning:  #177-D: variable "dptr2" was declared but never referenced
+        u8 *dptr,*dptr2;//???荽?指??
+..\..\User\bsp\gas.c(569): warning:  #177-D: variable "Gun_A" was declared but never referenced
+        u8 Gun_Num,Gun_A,Gun_B,Gun_Num0;
+..\..\User\bsp\gas.c(569): warning:  #177-D: variable "Gun_B" was declared but never referenced
+        u8 Gun_Num,Gun_A,Gun_B,Gun_Num0;
+..\..\User\bsp\gas.c(569): warning:  #177-D: variable "Gun_Num0" was declared but never referenced
+        u8 Gun_Num,Gun_A,Gun_B,Gun_Num0;
+..\..\User\bsp\gas.c(571): warning:  #177-D: variable "GunA_OnQ" was declared but never referenced
+        u8 GunA_OnQ;//当前枪A?欠????诒徊?询
+..\..\User\bsp\gas.c(572): warning:  #177-D: variable "First_Gun" was declared but never referenced
+        u8 First_Gun;//当?斓?一枪??志
+..\..\User\bsp\gas.c(574): warning:  #177-D: variable "Money_Same" was declared but never referenced
+        u8 Dlen,Money_Same,DSD_Same;
+..\..\User\bsp\gas.c(574): warning:  #177-D: variable "DSD_Same" was declared but never referenced
+        u8 Dlen,Money_Same,DSD_Same;
+..\..\User\bsp\gas.c(582): warning:  #177-D: variable "oil_s" was declared but never referenced
+        s32 oil_s,t_s;//??量?图???时?痰???时??量
+..\..\User\bsp\gas.c(582): warning:  #177-D: variable "t_s" was declared but never referenced
+        s32 oil_s,t_s;//??量?图???时?痰???时??量
+..\..\User\bsp\gas.c(584): warning:  #177-D: variable "dsd_ptr_0" was declared but never referenced
+        struct Day_Sum_Data   *dsd_ptr_0;
+..\..\User\bsp\gas.c(595): warning:  #177-D: variable "OilDataNeedCorrect" was declared but never referenced
+        u8 OilDataNeedCorrect=0;
+..\..\User\bsp\gas.c(1527): warning:  #177-D: label "Calc_OTDATA" was declared but never referenced
+  Calc_OTDATA:                                                  
+..\..\User\bsp\gas.c(1617): warning:  #177-D: label "Flow_Estimat" was declared but never referenced
+  Flow_Estimat:
+..\..\User\bsp\gas.c: 18 warnings, 0 errors
+compiling cb.c...
+..\..\User\bsp\cb.c(96): warning:  #188-D: enumerated type mixed with another type
+                res=genPLCData(Header_Array,sizeof(Header_Array),PLC_Data_Pre,&PLC_Data_Pre_Dlen);
+..\..\User\bsp\cb.c(311): warning:  #188-D: enumerated type mixed with another type
+                                                                Protocol_Resp(protocol_header,1,1,1);//应?鸱祷?值1，????PONG?墓碳?            
+..\..\User\bsp\cb.c(317): warning:  #188-D: enumerated type mixed with another type
+                                                         Protocol_Resp(protocol_header,1,1,0);//应?鸱祷?值0，????PING?墓碳?
+..\..\User\bsp\cb.c(339): warning:  #188-D: enumerated type mixed with another type
+                                                Protocol_Resp(protocol_header,1,1,2);//应?鸱祷?值2，?顺???
+..\..\User\bsp\cb.c(724): warning:  #223-D: function "RTC_Config" declared implicitly
+                                        RTC_Config();
+..\..\User\bsp\cb.c(748): warning:  #223-D: function "SystemDignose" declared implicitly
+                            SystemDignose();//系统?锒?
+..\..\User\bsp\cb.c(836): warning:  #186-D: pointless comparison of unsigned integer with zero
+                            if(TX_Modulation>=0 || TX_Modulation<=3)                            
+..\..\User\bsp\cb.c(1457): warning:  #550-D: variable "USARTn_DR" was set but never used
+        u32 USARTn_DR;
+..\..\User\bsp\cb.c(1929): warning:  #223-D: function "spiFlash_DataRegionErase" declared implicitly
+                                  spiFlash_DataRegionErase();
+..\..\User\bsp\cb.c(1913): warning:  #550-D: variable "fault_num" was set but never used
+            u16 fault_num;
+..\..\User\bsp\cb.c: 10 warnings, 0 errors
+compiling download.c...
+compiling dev_state.c...
+compiling flashmgr.c...
+compiling oildatapro.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_adc.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling PLCMessage.c...
+compiling SerialPort.c...
+..\..\User\plc\SerialPort.c(89): warning:  #177-D: variable "count2" was declared but never referenced
+        static u16 count2 = 0;
+..\..\User\plc\SerialPort.c: 1 warning, 0 errors
+compiling SwapOrder.c...
+compiling SEGGER_RTT.c...
+compiling SEGGER_RTT_printf.c...
+linking...
+Program Size: Code=52368 RO-data=568 RW-data=1464 ZI-data=38768  
+FromELF: creating hex file...
+After Build - User command #1: 1.bat
+
+D:\资料\资料\STM32\STM32例程\DX\抄报程序（新版本）20160823-金鑫版\抄报程序（金鑫版本）\Project\MDK-ARM(uV4)>C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin -o ./output.bin ./Flash/Obj/output.axf 
+After Build - User command #2: CopyHex_Flash.bat
+
+D:\资料\资料\STM32\STM32例程\DX\抄报程序（新版本）20160823-金鑫版\抄报程序（金鑫版本）\Project\MDK-ARM(uV4)>copy output.bin ..\..\ping.bin 
+已复制         1 个文件。
+".\Flash\Obj\output.axf" - 0 Error(s), 48 Warning(s).
